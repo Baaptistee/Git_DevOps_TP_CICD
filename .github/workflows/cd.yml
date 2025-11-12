@@ -34,4 +34,4 @@ jobs:
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TP_DEVOPS_CICD1_BM }}
-        run: twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+        run: twine upload --repository-url https://test.pypi.org/legacy/ dist/*
